@@ -37,6 +37,8 @@ namespace BeerTracker.Infrastructure.Persistence
         public DbSet<BeerItem> BeerItems { get; set; }
         public DbSet<BreweryItem> BreweryItems { get; set; }
 
+        public DbSet<AddressItem> AddressItems { get; set; }
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {
             foreach (var entry in ChangeTracker.Entries<AuditableEntity>())

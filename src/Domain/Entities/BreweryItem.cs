@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Text;
-
-namespace BeerTracker.Domain.Entities
+﻿namespace BeerTracker.Domain.Entities
 {
     public class BreweryItem
     {

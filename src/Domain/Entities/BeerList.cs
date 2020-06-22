@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace BeerTracker.Domain.Entities
 {
@@ -11,7 +9,6 @@ namespace BeerTracker.Domain.Entities
             Items = new List<BeerItem>();
         }
 
-   
 
         public IList<BeerItem> Items { get; set; }
     }

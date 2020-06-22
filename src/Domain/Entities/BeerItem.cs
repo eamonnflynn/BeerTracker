@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using BeerTracker.Domain.Common;
+﻿using BeerTracker.Domain.Common;
 using BeerTracker.Domain.Enums;
 
 namespace BeerTracker.Domain.Entities
